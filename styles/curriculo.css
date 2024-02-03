@@ -1,0 +1,21 @@
+.link__certificados {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.link__certificados:hover {
+    color: var(--cor-terciaria);
+}
+
+.curriculo__listas {
+    list-style-type: none;
+    padding-top: 1em;
+}
+
+.curriculo__item {
+    padding-top: 1.5em;
+}
+
+.apresentacao__curriculo {
+    align-items: flex-start;
+}
