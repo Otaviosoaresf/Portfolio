@@ -71,3 +71,25 @@
     background-color: var(--cor-hover);
     color: var(--cor-terciaria);
 }
+
+@media (max-width: 740px) {
+
+    .titulos {
+        flex-direction: column;
+    }
+
+    .container__titulo {
+        font-size: 1.7em;
+        padding: 1em;
+    }
+
+    .projetos__item {
+        flex-direction: column;
+        word-wrap: break-word;
+    }
+
+    .projeto__imagem {
+        width: 17em;
+        height: auto;
+    }
+}

@@ -19,3 +19,22 @@
 .apresentacao__curriculo {
     align-items: flex-start;
 }
+
+
+@media (max-width: 740px) {
+
+    .apresentacao__conteudo {
+        align-items: center;
+    }
+
+    .apresentacao__conteudo__texto {
+        width: auto;
+        font-size: 1.3em;
+        word-wrap: break-word;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.9em;
+    }
+    
+}

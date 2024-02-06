@@ -112,6 +112,10 @@ span {
     border: 2px solid var(--cor-terciaria);
 }
 
+.apresentacao__links__navegacao__imagem {
+    width: 1.5em;
+}
+
 .apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
     color: var(--cor-terciaria);
@@ -136,7 +140,30 @@ span {
 }
 
 
+@media (max-width: 740px) {
 
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .cabecalho {
+        padding: 2% 0% 10% 7%;
+    }
+
+    .cabecalho__menu {
+        gap: 2em;  
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1em;
+        word-wrap: break-word;
+        width: auto;
+    }
+
+    .sobre-mim {
+        align-items: center;
+    }
+}
 
 @media (max-width: 970px) {
     .apresentacao {
