@@ -1,4 +1,3 @@
-//const elementoClicavel = document.querySelectorAll(".container__titulo")
 const displayFront = document.querySelector(".front")
 const displayCsharp = document.querySelector(".Csharp")
 const tituloClicavelfront = document.getElementById("titulofront")
